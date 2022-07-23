@@ -1,0 +1,71 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+body
+{
+	background-color: rgb(246, 254, 246);
+	font-family:sans-serif;	
+}
+#nav-bar
+{
+	background-color:#140c14ea;
+	position: sticky;
+	top:0;
+	z-index:20;
+	padding-left: 20%;
+	padding-right: 25%;
+}
+.nav-link:hover{
+    background-color:rgb(222, 136, 199);
+}
+.navbar
+{
+    padding: 0 !important;
+}
+navbar-brand img
+{
+	height:40px;
+	padding-left:20px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+color:#fff !important;
+font-size: large;
+text-align:center;
+}
+.fa-bars
+{
+	color:#fd0932;
+	font-size:30p !important;
+}
+.navbar-toggler
+{
+	outline:none !important;
+}
+#main
+{
+text-align: center;
+background-color:rgb(235, 235, 248);
+}
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgba(10, 9, 10, 0.616)!important;
+    color: rgb(237, 158, 158)!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: rgb(219, 147, 47)!important;
+} 

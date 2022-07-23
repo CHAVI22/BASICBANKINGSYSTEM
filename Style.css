@@ -1,0 +1,168 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+body
+{
+	background-color: rgb(246, 254, 246);
+	font-family:sans-serif;	
+}
+#nav-bar
+{
+	background-color:#140c14ea;
+	position: sticky;
+	top:0;
+	z-index:20;
+	padding-left: 29%;
+	padding-right: 25%;
+}
+.nav-link:hover{
+    background-color:rgb(222, 136, 199);
+}
+.navbar
+{
+    padding: 0 !important;
+}
+navbar-brand img
+{
+	height:40px;
+	padding-left:20px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+color:#fff !important;
+font-weight:600;
+float:right;
+text-align:left;
+}
+.fa-bars
+{
+	color:#fd0932;
+	font-size:30p !important;
+}
+.navbar-toggler
+{
+	outline:none !important;
+}
+/*---banner section--*/
+#main
+{
+text-align: center;
+background-color:rgb(178, 137, 249);
+color:rgb(150, 8, 8);
+padding-top:3%;	
+}
+.container h1 {
+	padding-top:3%;
+	text-align: center;
+}
+.container h1 img{
+	padding: auto;
+}
+
+.bankimage{
+	padding-left: 35%;
+	padding-right: 25%;
+}
+/*---service section---*/
+#features1
+{
+	text-align: center;
+	padding: 10% 15%;
+	border-radius: 35cm;
+}
+ #features p
+ {
+	 padding-left:10% ;
+	 padding-right: 15%;
+	 padding-top:auto;
+     text-align: center;
+ }
+#features a button
+{
+	background-color: #0f0e10;
+	display: inline;
+	padding-left: 19%;
+	padding-right: 15%;
+	padding-top: 0%;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+
+.title::before
+{
+	content:'';
+	background:#0c0c0c;
+	height:5px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+
+
+.title::after
+{
+	content:'';
+	background:#0e0f0e;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-bottom:40px;
+    display: block;
+	transform:translatey(8px);
+}
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:10px 25px;
+	border:none;
+	align-content: center;
+	background-image:linear-gradient(to right,#9cba17,#5ed7e7)
+}
+/* Action*/
+  #action{
+    background-color:rgb(181, 147, 239);
+    padding: 5% 12%;
+    text-align: center;
+    line-height: 1.5;
+	border:#0f0e10;
+    color: rgb(250, 246, 246);
+  }
+   #bankimg .bankimage img {
+		border: #e9e5ee;
+		border-radius: 12px;
+   }
+  .main{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10px 0px;
+  }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* footer */
+#footer{
+	background-color:rgb(181, 147, 239);
+    color:rgb(8, 7, 7);
+    text-align: center;
+}
+#footer .ptag p{
+	font-size: 190%;
+	font-style: italic;
+	color: rgb(10, 0, 6);
+	padding: 4% 20%;
+}
